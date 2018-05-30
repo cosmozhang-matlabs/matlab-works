@@ -1,7 +1,7 @@
 function [  ] = f_20180523_skeleton(  )
 
 %% read image and transform to grayscale
-im = imread('f_20180523_skeleton.png');
+im = imread('f_20180523_skeleton.useful.png');
 im = rgb2gray(im);
 imw = size(im, 2);
 imh = size(im, 1);
